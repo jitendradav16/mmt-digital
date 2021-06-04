@@ -1,0 +1,6 @@
+:root {
+    --logo: url('../assets/logo.svg');
+    --search-icon: url('../assets/search.svg');
+    --back-arrow: url('../assets/back-arrow.svg');
+    --forward-arrow: url('../assets/forward-arrow.svg');
+}

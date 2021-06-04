@@ -1,0 +1,32 @@
+.list {
+    background-color: #2c2c2c;
+    padding: var(--space-size);
+}
+
+.list__result {
+    grid-column: span 6;
+}
+
+.list__pagination {
+    text-align: right;
+    grid-column: span 6;
+    display: grid;
+    gap: var(--space-size);
+    grid-template-columns: 1fr repeat(3, auto);
+}
+
+.back-button {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background: transparent no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter: invert(1);
+}
+.list__back {
+    background-image: var(--back-arrow);
+}
+.list__forward {
+    background-image: var(--forward-arrow);
+}

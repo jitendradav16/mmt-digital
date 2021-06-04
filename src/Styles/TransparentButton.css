@@ -1,0 +1,7 @@
+.transparent-button {
+  cursor: pointer;
+  background: transparent;
+  border: var(--border-size) solid var(--fore-color);
+  color: #fff;
+  font-size: 1rem;
+}
